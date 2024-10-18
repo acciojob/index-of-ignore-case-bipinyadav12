@@ -5,7 +5,7 @@ function indexOfIgnoreCase(s1, s2) {
 	let flag=false;
 	for ( let i=0;i<s1.length;i++){
 		if (ns2.includes(ns1[i])){
-			flag=ture;
+			flag=true;
 			return i;}
 	}
 	if(!flag){
@@ -14,6 +14,6 @@ function indexOfIgnoreCase(s1, s2) {
 }
 
 // Please do not change the code below
-//const s1 = prompt("Enter s1:");
-//const s2 = prompt("Enter s2:");
+const s1 = prompt("Enter s1:");
+const s2 = prompt("Enter s2:");
 alert(indexOfIgnoreCase(s1, s2));
