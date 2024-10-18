@@ -6,7 +6,8 @@ function indexOfIgnoreCase(s1, s2) {
 	for ( let i=0;i<s1.length;i++){
 		if (ns2.includes(ns1[i])){
 			flag=true;
-			return i;}
+			return i;
+		break}
 	}
 	if(!flag){
 		return -1;
