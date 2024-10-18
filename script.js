@@ -2,9 +2,9 @@ function indexOfIgnoreCase(s1, s2) {
  const ns1=s1.toLowerCase()
  const ns2=s2.toLowerCase()
 	for ( let i=0;i<s1.length;i++){
-		let 
-		if (ns2.include(ns1(i))){
-			return console.log(i);}
+	
+		if (ns2.includes(ns1(i))){
+			return i;}
 	}
 }
 
